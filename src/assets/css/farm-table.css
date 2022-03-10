@@ -1,0 +1,49 @@
+.farm-table {
+    font-weight: 300;
+}
+
+.farm-table .table-cell {
+    border-bottom: 1px solid var(--border);
+    padding: 0.5rem 0;
+}
+
+.farm-table .table-header-group {
+    font-weight: 400;
+    color: var(--grey);
+}
+
+.farm-actions select {
+    font-weight: 300;
+    color: var(--grey);
+    cursor: pointer;
+}
+
+::placeholder {
+    font-weight: 300;
+    color: var(--grey);
+}
+
+.search-input {
+    position: relative;
+}
+
+.search-input .search-icon {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+.search-input input {
+    padding-left: 2.5rem;
+}
+
+.search-badge {
+    border-radius: 5rem;
+    min-width: 200px;
+    background-color: var(--dark-green);
+    color: var(--white);
+    font-weight: 400;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+@import './tailwind.css';
+@import './colors.css';
+@import './fonts.css';
+@import './farm-table.css';
+@import './toggle.css';
+
+body {
+  min-height: 100vh;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'Poppins', Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--white-smoke); 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
