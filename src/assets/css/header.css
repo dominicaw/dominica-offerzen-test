@@ -1,0 +1,23 @@
+.header {
+    height: 60px;
+}
+
+.sub-header {
+    height: 60px;
+}
+
+.search {
+    position: relative;
+}
+
+.search input {
+    padding: 0.75rem 1.85rem 0.75rem 0.75rem;
+    color: var(--gray-chateau);
+    height: 40px;
+}
+
+.search i {
+    position: absolute;
+    right: 10px;
+    top: 19px;
+}

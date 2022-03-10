@@ -1,12 +1,12 @@
 <script setup>
 import Header from "./components/Header.vue";
-import FarmsContainer from "./components/FarmsContainer.vue";
+import CandidatesContainer from "./components/CandidatesContainer.vue";
 </script>
 
 <template>
   <Header :farm-name="'Crownhill'" />
   <main>
-     <FarmsContainer />
+     <CandidatesContainer />
   </main>
 </template>
 

@@ -1,0 +1,40 @@
+.candidate-container {
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 3px 2px 2px 2px;
+}
+
+.candidate-container .unread {
+    font-weight: 600;
+}
+
+.candidate-container .candidate-header {
+    background-color: var(--athens-gray);
+    color: var(--oxford-blue);
+    font-weight: 600;
+}
+
+.candidate-container .candidate-table img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.candidate-container .candidate-table .grid {
+    border-bottom: 1px solid var(--catskill-white);
+}
+
+.candidate-container .archived {
+    background-color: var(--athens-gray);
+}
+
+.candidate-container .dot:before {
+    content: '';
+    height: 10px;
+    width: 10px;
+    background-color: var(--jungle-green);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
